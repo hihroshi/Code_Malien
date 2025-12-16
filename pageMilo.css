@@ -1,0 +1,85 @@
+body{
+    margin: 0px;
+    background-color: rgb(31, 31, 31);
+    display: flex;
+}
+
+header{
+    display: flex;
+    width: 85vw;
+    background-color: rgb(24, 24, 24);
+    outline: solid;
+    margin-left: 2px;
+    outline-width: 2px;
+    outline-color: rgba(43, 43, 43);
+}
+h1, p{
+    color: white;
+}
+h1{
+    font-size: 15px;
+}
+.text{
+    padding-left: 30px;
+    display: flex;
+    gap: 20px;
+    line-height: 0;
+}
+aside{
+    background-color: rgb(24, 24, 24);
+    height: 100vh;
+    outline: solid;
+    outline-width: 2px;
+    outline-color: rgba(43, 43, 43);
+    width: 10vw;
+}
+a{
+    text-decoration-line: none;
+    display: flex;
+}
+aside p{
+    padding-left: 10px;
+}
+.nombre{
+    color: rgba(110, 118, 129);
+    text-align:end;
+    width: 20px;
+}
+.blue{
+    color:rgba(156, 220, 254);
+}
+.orange{
+    color: rgba(198, 115, 80);
+}
+.green{
+    color: rgba(181, 206, 168);
+}
+.greenFonc{
+    color: rgba(94, 168, 82);
+}
+.gras{
+    font-weight: bold;
+}
+.img{
+    padding-top: 15px;
+    margin-left: 10px;
+}
+.imge{
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 5px;
+}
+.onglet{
+    display: flex;
+    padding-inline-end: 10px;
+    outline: solid;
+    outline-width: 2px;
+    outline-color: rgba(43, 43, 43);
+    border-top-width: 4px;
+    border-top: solid;  
+    border-top-color: rgba(0, 120, 212);
+}
+.asidee{
+    overflow: hidden;
+    height: 100vh;
+}
